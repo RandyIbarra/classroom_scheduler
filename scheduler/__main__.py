@@ -1,4 +1,5 @@
-from scheduler.app import KivyApp
+from scheduler.app import App
 
 if __name__ == '__main__':
-    KivyApp().run()
+    app = App()
+    app.run()
