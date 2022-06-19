@@ -1,6 +1,7 @@
 class Activity():
     """Activity
-    Is an object that represents an activity at specific classroom at specific day at specific schedule.
+    Is an object that represents an activity at specific 
+    classroom at specific day at specific schedule.
     """
     def __init__(self, **kwargs):
         
@@ -37,19 +38,3 @@ class Activity():
         if self.activity_name != 'Not Asigned':
             return True
         return False
-
-if __name__ == '__main__':
-    activity = Activity(activity_name='Modern Algebra',
-                        classroom_id='D - 101',
-                        activity_day='Monday',
-                        start_time='8:00',
-                        end_time='9:20')
-    print('{} | {} - {} {}'.format(activity.get_classroom_id(), activity.get_activity_name(), activity.get_activity_day(), activity.get_schedule()))
-
-    activity.update_activity_name('Geometry')
-    print('{} | {} - {} {}'.format(activity.get_classroom_id(), activity.get_activity_name(), activity.get_activity_day(), activity.get_schedule()))
-
-    print()
-
-    activity.remove_activity()
-    print('is there activity - {}'.format(activity.is_there_activity()))

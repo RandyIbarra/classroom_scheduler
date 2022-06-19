@@ -1,5 +1,4 @@
-from scheduler.classroom_day_schedule import ClassroomDaySchedule
-from datetime import time
+from scheduler.modules.classroom_day_schedule import ClassroomDaySchedule
 
 class Classroom():
     """Classroom

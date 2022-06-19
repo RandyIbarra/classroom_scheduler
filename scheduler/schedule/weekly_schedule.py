@@ -6,8 +6,11 @@ from kivy.uix.textinput import TextInput
 from kivy.uix.label import Label
 from kivy.uix.popup import Popup
 
-from scheduler.college import College
-from scheduler.activity import Activity
+from scheduler.schedule.schedule_button import ScheduleButton
+from scheduler.schedule.activity_list import ActivityList
+from scheduler.schedule.activity import Activity
+
+from scheduler.modules.college import College
 
 class WeeklySchedule(GridLayout):
 
@@ -17,22 +20,22 @@ class WeeklySchedule(GridLayout):
         super(WeeklySchedule, self).__init__(**kwargs)
         
         self.college = kwargs['college']
-        self.college.info()
 
-        self.class_days = WEEKDAYS
-        self.cols = len(self.class_days) + 1
+        self.activity_days = self.college.get_activity_days()
+
+        self.cols = len(self.activity_days) + 1
 
         # adding columnames: first one for sctivities schedule and later one per weekday
         self.add_widget(Label(text='Schedule'))
-        for class_day in self.class_days:
+        for class_day in self.activity_days:
             self.add_widget(Label(text=class_day))
 
-        self.schedule_options = DEMAT_SCHEDULE_OPTIONS
+        self.schedule_options = self.college.get_schedule_options()
         for activity_schedule_index, (start_time, end_time) in enumerate(self.schedule_options): 
 
             self.add_widget(Label(text='{} \n{}'.format(start_time, end_time)))
             
-            for class_day in self.class_days:
+            for class_day in self.activity_days:
                 
                 layout = BoxLayout(padding=2)
                 button = ScheduleButton(start_time=start_time,

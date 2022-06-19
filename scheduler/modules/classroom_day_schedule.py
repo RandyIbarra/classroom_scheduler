@@ -1,4 +1,4 @@
-from scheduler.activity import Activity
+from scheduler.schedule.activity import Activity
 
 class ClassroomDaySchedule():
 

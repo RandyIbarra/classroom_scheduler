@@ -13,8 +13,9 @@ from kivy.uix.popup import Popup
 
 from kivy.app import App as KivyApp
 
-from scheduler.college import College
-from scheduler.activity import Activity
+from scheduler.modules.college import College
+from scheduler.schedule.activity import Activity
+from scheduler.schedule.update_activity import UpdateActivity
 
 class ActivityList(GridLayout):
 
