@@ -1,4 +1,5 @@
-from scheduler.schedule.activity import Activity
+#from scheduler.schedule.activity import Activity
+from schedule.activity import Activity
 
 class ClassroomDaySchedule():
 
@@ -23,8 +24,8 @@ class ClassroomDaySchedule():
         self.schedule[activity_schedule_index].update_activity_name(activity_name)
     
     def check_activity_by_index(self, activity_schedule_index):
-        return self.schedule[activity_schedule_index].is_there_activity()
-    
+        return self.schedule[activity_schedule_index].get_activity_name()
+        
     def get_schedule(self):
         return self.schedule
 

@@ -1,4 +1,4 @@
-from scheduler.app import App
+from scheduler.app import SchedulerApp
 
 if __name__ == '__main__':
-    App().run()
+    SchedulerApp().run()

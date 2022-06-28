@@ -1,0 +1,36 @@
+<ActivitySetter@Popup>
+    id: activity_setter
+    title: 'Enter activity'
+    
+    size_hint: None, None
+    size: 500, 150
+
+    GridLayout:
+        cols: 1
+        rows: 2
+
+        ActivityInput
+
+        BoxLayout:
+            orientation: 'horizontal'
+    
+            AcceptButton
+            CancelButton
+
+<ActivityInput@TextInput>
+    id: activity_input
+    multiline: False
+    halign: 'center'
+    size_hint: 1, None
+    height: 30
+    on_text_validate: root.on_enter(activity_input)
+
+<CancelButton@Button>
+    id: cancel_button
+    text: 'Cancel'
+    on_press: root.on_button_press(cancel_button)
+
+<AcceptButton@Button>
+    id: accept_button
+    text: 'accept'
+    on_press: root.on_button_press(accept_button)

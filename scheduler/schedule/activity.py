@@ -12,7 +12,7 @@ class Activity():
         self.end_time = kwargs['end_time']
 
         # if there is no activity, then name is None
-        self.activity_name = 'Not Asigned'
+        self.activity_name = 'Not Assigned'
         if 'activity_name' in kwargs:
             self.activity_name = kwargs['activity_name']
 

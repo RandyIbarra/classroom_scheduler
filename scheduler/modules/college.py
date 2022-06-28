@@ -1,4 +1,5 @@
-from scheduler.modules.classroom import Classroom
+#from scheduler.modules.classroom import Classroomv
+from modules.classroom import Classroom
 
 DEMAT_CLASSROOMS_DESCRIPTION = """ 
     College
@@ -21,6 +22,8 @@ class College():
     about = DEMAT_CLASSROOMS_DESCRIPTION
 
     def __init__(self, **kwargs):
+
+        self.text = 'hola............................................'
 
         self.classroom_ids = kwargs['classroom_ids']
         self.activity_days = kwargs['activity_days']
@@ -60,4 +63,4 @@ class College():
         self.classrooms[classroom_id].update_day_s_activity_schedule(activity_day, activity_schedule_index, activity_name)
 
     def check_classroom_day_s_activity_schedule(self, classroom_id, activity_day, activity_schedule_index):
-        self.classrooms[classroom_id].check_day_s_activity_schedule(activity_day, activity_schedule_index)
+        return self.classrooms[classroom_id].check_day_s_activity_schedule(activity_day, activity_schedule_index)
