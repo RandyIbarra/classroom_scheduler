@@ -1,5 +1,5 @@
-#from scheduler.modules.classroom import Classroomv
-from modules.classroom import Classroom
+from scheduler.modules.classroom import Classroom
+#from modules.classroom import Classroom
 
 DEMAT_CLASSROOMS_DESCRIPTION = """ 
     College

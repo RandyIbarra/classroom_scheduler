@@ -10,6 +10,7 @@ class Activity():
         self.activity_day = kwargs['activity_day']
         self.start_time = kwargs['start_time']
         self.end_time = kwargs['end_time']
+        self.schedule = kwargs['schedule']
 
         # if there is no activity, then name is None
         self.activity_name = 'Not Assigned'
@@ -23,7 +24,7 @@ class Activity():
         self.update_activity_name('Not Asigned')
     
     def get_schedule(self):
-        return (self.start_time, self.end_time)
+        return (self.schedule, self.start_time, self.end_time)
     
     def get_activity_name(self):
         return self.activity_name

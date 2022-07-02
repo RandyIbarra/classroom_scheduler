@@ -1,5 +1,5 @@
-#from scheduler.schedule.activity import Activity
-from schedule.activity import Activity
+from scheduler.schedule.activity import Activity
+#from schedule.activity import Activity
 
 class ClassroomDaySchedule():
 
@@ -11,12 +11,13 @@ class ClassroomDaySchedule():
         self.schedule_options = kwargs['schedule_options']
 
         self.schedule = []
-        for (start_time, end_time) in self.schedule_options:
+        for schedule, (start_time, end_time) in enumerate(self.schedule_options):
 
             activity = Activity(activity_day=self.activities_day,
                                 classroom_id=self.classroom_id,
                                 start_time=start_time, 
-                                end_time=end_time)
+                                end_time=end_time,
+                                schedule=schedule)
             
             self.schedule.append(activity)
     

@@ -18,7 +18,9 @@ class MyApp(App):
         )
         button = Button(text = 'text')
         button.bind(on_press = self.on_button_press)
+        print("fdfasfdfsafdsa")
         self.popup = ActivitySetter(college=self.college, classroom_id='Astrofisica', activity_day='Monday', schedule=1)
+        print("fdfasfdfsafdsa")
         return button
     def on_button_press(self, button):
         print(self.college.check_classroom_day_s_activity_schedule(classroom_id = 'Astrofisica', activity_day = 'Monday', activity_schedule_index = 1))

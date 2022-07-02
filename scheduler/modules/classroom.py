@@ -1,5 +1,5 @@
-#from scheduler.modules.classroom_day_schedule import ClassroomDaySchedule
-from modules.classroom_day_schedule import ClassroomDaySchedule
+from scheduler.modules.classroom_day_schedule import ClassroomDaySchedule
+#from modules.classroom_day_schedule import ClassroomDaySchedule
 
 class Classroom():
     """Classroom

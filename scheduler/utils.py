@@ -6,7 +6,7 @@ def get_classroom_ids():
     
     This file has only one line. A list of space-separated classroom ids.
     """
-    with open('../data/classroom_ids.txt') as data:
+    with open('data/classroom_ids.txt') as data:
         classroom_ids = data.readline().split()
         
         print('\nclassroom_ids:\n')
@@ -25,7 +25,7 @@ def get_activity_days():
     
     This file has only one line. A list of space-separated activity days.
     """
-    with open('../data/activity_days.txt') as data:
+    with open('data/activity_days.txt') as data:
         activity_days = data.readline().split()
         
         print('\nactivity_days:\n')
@@ -44,7 +44,7 @@ def get_schedule_options():
     
     This file contains several lines. One line per each schedule option.
     """
-    with open('../data/schedule_options.txt') as data:
+    with open('data/schedule_options.txt') as data:
         lines = data.readlines()
 
         print('\nschedule_options:\n')

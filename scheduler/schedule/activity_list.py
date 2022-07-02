@@ -17,6 +17,8 @@ from scheduler.modules.college import College
 from scheduler.schedule.activity import Activity
 from scheduler.schedule.update_activity import UpdateActivity
 
+from scheduler.setter import ActivitySetter
+
 class ActivityList(GridLayout):
 
     updated_activities = ListProperty()
@@ -51,23 +53,30 @@ class ActivityList(GridLayout):
             for activity_day in classroom.get_activity_days():
                 if activity_day == self.day:
                     for activity in classroom.get_day_schedule(activity_day).get_schedule():
-                        (start_time, end_time) = activity.get_schedule()
+                        (schedule, start_time, end_time) = activity.get_schedule()
                         if self.start_time == start_time and self.end_time == end_time:
-                            textinput = UpdateActivity(
+                            btn = UpdateActivity(
                                 classroom_id=id,
                                 start_time=start_time,
                                 end_time=end_time,
                                 day=activity_day,
+                                schedule=schedule,
                                 # extra params
-                                text=activity.get_activity_name(), 
-                                multiline=False
+                                text=activity.get_activity_name()
                             )
-                            textinput.bind(on_text_validate=self.on_enter)
-                            self.add_widget(textinput)
+                            btn.bind(on_press=self.on_enter)
+                            self.add_widget(btn)
 
     def on_enter(self, value):
+        self.popup = ActivitySetter(college=self.college, classroom_id=value.classroom_id, activity_day=value.day, schedule=value.schedule)
+        self.popup.bind(on_dismiss = self.on_dismiss)
+        self.popup.open()
         self.updated_activities.append(Activity(activity_name=value.text,
                                                 classroom_id=value.classroom_id,
                                                 activity_day=value.day,
                                                 start_time=value.start_time,
-                                                end_time=value.end_time))
+                                                end_time=value.end_time,
+                                                schedule=value.schedule))
+
+    def on_dismiss(self, arg):
+      pass  

@@ -9,7 +9,7 @@ from scheduler.utils import get_classroom_ids
 from scheduler.utils import get_activity_days
 from scheduler.utils import get_schedule_options
 
-from scheduler.schedule.weekly_schedule import WeeklySchedule
+from scheduler.schedule.weekly_schedule2 import WeeklySchedule2
 from scheduler.schedule.menu import SchedulerMenu
 
 from scheduler.modules.college import College
@@ -35,10 +35,10 @@ class SchedulerApp(App):
             activity_days=get_activity_days(),
             schedule_options=get_schedule_options()
         )
-        self.weekly_schedule = WeeklySchedule(college=self.demat)
         # screen manager
         self.screen_manager = ScreenManager(transition=NoTransition())
         # define screens
         self.screen_manager.add_widget(SchedulerMenu(name='Menu'))
+        self.screen_manager.add_widget(WeeklySchedule2(name='Week', college=self.demat))
         self.screen_manager.current = 'Menu'
         return self.screen_manager

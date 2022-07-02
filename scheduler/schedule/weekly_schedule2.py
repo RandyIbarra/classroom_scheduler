@@ -14,33 +14,33 @@ from scheduler.schedule.activity import Activity
 
 from scheduler.modules.college import College
 
-class WeeklySchedule(Screen):
+class WeeklySchedule2(Screen):
 
     college = ObjectProperty()
 
     def __init__(self, **kwargs):
-        super(WeeklySchedule, self).__init__(**kwargs)
+        super(WeeklySchedule2, self).__init__(**kwargs)
         
         self.college = kwargs['college']
 
-        self.activity_days = self.college.get_activity_days()
+        activity_days = self.college.get_activity_days()
 
         layout = GridLayout()
-        layout.cols = len(self.activity_days) + 1
+        layout.cols = len(activity_days) + 1
         # adding columnames: first one for sctivities schedule and later one per weekday
         layout.add_widget(Label(text='Schedule'))
-        for class_day in self.activity_days:
+        for class_day in activity_days:
             layout.add_widget(Label(text=class_day))
         
-        self.schedule_options = self.college.get_schedule_options()
+        schedule_options = self.college.get_schedule_options()
         
-        for activity_schedule_index, (start_time, end_time) in enumerate(self.schedule_options): 
+        for activity_schedule_index, (start_time, end_time) in enumerate(schedule_options): 
 
             print((start_time, end_time))
 
             layout.add_widget(Label(text='{} \n{}'.format(start_time, end_time)))
             
-            for class_day in self.activity_days:
+            for class_day in activity_days:
                 
                 box = BoxLayout(padding=2)
                 button = ScheduleButton(start_time=start_time,
@@ -54,11 +54,13 @@ class WeeklySchedule(Screen):
                 box.add_widget(button)
                 
                 layout.add_widget(box)
-        print('aqfafdfadfdfafsfafdfasfdasdad')
+
         self.add_widget(layout)
 
     def on_dismiss(self, arg):
-        
+        print(arg)
+        print('++++++++++++++++++++')
+        pass
         day = ''
         (start_time, end_time) = ('','')
         for activity in self.popup.content.updated_activities:
