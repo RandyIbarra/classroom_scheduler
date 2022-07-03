@@ -1,0 +1,11 @@
+actividad:
+    -horario
+    -dia de actividad
+
+dia de actividades
+    Dias en los que hay 
+    -nombre (Variable)
+    -conjunto de horarios de actividades (Constante en toda la aplicacion)
+
+    -todos los salones tienen el mismo conjunto de días de actividad
+    -todos los días de actividad tienen el mismo conjunto de horarios de actividad

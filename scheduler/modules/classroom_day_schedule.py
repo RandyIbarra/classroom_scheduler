@@ -8,10 +8,10 @@ class ClassroomDaySchedule():
         # rerquired and constant
         self.classroom_id = kwargs['classroom_id']
         self.activities_day = kwargs['activities_day']
-        self.schedule_options = kwargs['schedule_options']
+        self.activity_schedules = kwargs['activity_schedules']
 
         self.schedule = []
-        for schedule, (start_time, end_time) in enumerate(self.schedule_options):
+        for schedule, (start_time, end_time) in enumerate(self.activity_schedules):
 
             activity = Activity(activity_day=self.activities_day,
                                 classroom_id=self.classroom_id,
@@ -32,7 +32,7 @@ class ClassroomDaySchedule():
 
 if __name__ == '__main__':
     classroom_day_schedule = ClassroomDaySchedule(
-        schedule_options=DEMAT_SCHEDULE_OPTIONS,
+        activity_schedules=DEMAT_activity_schedules,
         activities_day='Monday',
         classroom_id='D - 101'
     )
