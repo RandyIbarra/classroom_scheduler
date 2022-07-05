@@ -1,5 +1,5 @@
 {
-  "Seminarios": {
+  "Seminarios-DEMAT": {
     "Monday": {
       "08:00-09:20": {
         "activity_name": "Not Assigned"
@@ -82,7 +82,7 @@
         "activity_name": "Not Assigned"
       },
       "15:00-16:20": {
-        "activity_name": "Not Assigned"
+        "activity_name": "Vision Computacional"
       }
     }
   },
@@ -173,7 +173,7 @@
       }
     }
   },
-  "DEMAT3": {
+  "DEMAT-3": {
     "Monday": {
       "08:00-09:20": {
         "activity_name": "Not Assigned"
@@ -260,7 +260,94 @@
       }
     }
   },
-  "DEMAT4": {
+  "DEMAT-4": {
+    "Monday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Calculo II (B)"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Tuesday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Calculo II (B)"
+      },
+      "11:00-12:20": {
+        "activity_name": "Estructuras de datos y algoritmos"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Wednesday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Calculo II (B)"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Thursday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Calculo II (B)"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Friday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Algebra Lineal (B)"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    }
+  },
+  "DEMAT-5": {
     "Monday": {
       "08:00-09:20": {
         "activity_name": "Not Assigned"
@@ -347,7 +434,94 @@
       }
     }
   },
-  "DEMAT5": {
+  "DEMAT-6": {
+    "Monday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Calculo II (A)"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Tuesday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Wednesday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Thursday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Friday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    }
+  },
+  "DEMAT-7": {
     "Monday": {
       "08:00-09:20": {
         "activity_name": "Not Assigned"
@@ -434,181 +608,7 @@
       }
     }
   },
-  "DEMAT6": {
-    "Monday": {
-      "08:00-09:20": {
-        "activity_name": "Not Assigned"
-      },
-      "09:30-10:50": {
-        "activity_name": "Not Assigned"
-      },
-      "11:00-12:20": {
-        "activity_name": "Not Assigned"
-      },
-      "12:30-13:50": {
-        "activity_name": "Not Assigned"
-      },
-      "15:00-16:20": {
-        "activity_name": "Not Assigned"
-      }
-    },
-    "Tuesday": {
-      "08:00-09:20": {
-        "activity_name": "Not Assigned"
-      },
-      "09:30-10:50": {
-        "activity_name": "Not Assigned"
-      },
-      "11:00-12:20": {
-        "activity_name": "Not Assigned"
-      },
-      "12:30-13:50": {
-        "activity_name": "Not Assigned"
-      },
-      "15:00-16:20": {
-        "activity_name": "Not Assigned"
-      }
-    },
-    "Wednesday": {
-      "08:00-09:20": {
-        "activity_name": "Not Assigned"
-      },
-      "09:30-10:50": {
-        "activity_name": "Not Assigned"
-      },
-      "11:00-12:20": {
-        "activity_name": "Not Assigned"
-      },
-      "12:30-13:50": {
-        "activity_name": "Not Assigned"
-      },
-      "15:00-16:20": {
-        "activity_name": "Not Assigned"
-      }
-    },
-    "Thursday": {
-      "08:00-09:20": {
-        "activity_name": "Not Assigned"
-      },
-      "09:30-10:50": {
-        "activity_name": "Not Assigned"
-      },
-      "11:00-12:20": {
-        "activity_name": "Not Assigned"
-      },
-      "12:30-13:50": {
-        "activity_name": "Not Assigned"
-      },
-      "15:00-16:20": {
-        "activity_name": "Not Assigned"
-      }
-    },
-    "Friday": {
-      "08:00-09:20": {
-        "activity_name": "Not Assigned"
-      },
-      "09:30-10:50": {
-        "activity_name": "Not Assigned"
-      },
-      "11:00-12:20": {
-        "activity_name": "Not Assigned"
-      },
-      "12:30-13:50": {
-        "activity_name": "Not Assigned"
-      },
-      "15:00-16:20": {
-        "activity_name": "Not Assigned"
-      }
-    }
-  },
-  "DEMAT7": {
-    "Monday": {
-      "08:00-09:20": {
-        "activity_name": "Not Assigned"
-      },
-      "09:30-10:50": {
-        "activity_name": "Not Assigned"
-      },
-      "11:00-12:20": {
-        "activity_name": "Not Assigned"
-      },
-      "12:30-13:50": {
-        "activity_name": "Not Assigned"
-      },
-      "15:00-16:20": {
-        "activity_name": "Not Assigned"
-      }
-    },
-    "Tuesday": {
-      "08:00-09:20": {
-        "activity_name": "Not Assigned"
-      },
-      "09:30-10:50": {
-        "activity_name": "Not Assigned"
-      },
-      "11:00-12:20": {
-        "activity_name": "Not Assigned"
-      },
-      "12:30-13:50": {
-        "activity_name": "Not Assigned"
-      },
-      "15:00-16:20": {
-        "activity_name": "Not Assigned"
-      }
-    },
-    "Wednesday": {
-      "08:00-09:20": {
-        "activity_name": "Not Assigned"
-      },
-      "09:30-10:50": {
-        "activity_name": "Not Assigned"
-      },
-      "11:00-12:20": {
-        "activity_name": "Not Assigned"
-      },
-      "12:30-13:50": {
-        "activity_name": "Not Assigned"
-      },
-      "15:00-16:20": {
-        "activity_name": "Not Assigned"
-      }
-    },
-    "Thursday": {
-      "08:00-09:20": {
-        "activity_name": "Not Assigned"
-      },
-      "09:30-10:50": {
-        "activity_name": "Not Assigned"
-      },
-      "11:00-12:20": {
-        "activity_name": "Not Assigned"
-      },
-      "12:30-13:50": {
-        "activity_name": "Not Assigned"
-      },
-      "15:00-16:20": {
-        "activity_name": "Not Assigned"
-      }
-    },
-    "Friday": {
-      "08:00-09:20": {
-        "activity_name": "Not Assigned"
-      },
-      "09:30-10:50": {
-        "activity_name": "Not Assigned"
-      },
-      "11:00-12:20": {
-        "activity_name": "Not Assigned"
-      },
-      "12:30-13:50": {
-        "activity_name": "Not Assigned"
-      },
-      "15:00-16:20": {
-        "activity_name": "Not Assigned"
-      }
-    }
-  },
-  "DEMAT8": {
+  "DEMAT-8": {
     "Monday": {
       "08:00-09:20": {
         "activity_name": "Not Assigned"
