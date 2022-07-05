@@ -1,0 +1,12 @@
+Screen:
+    name: 'weekschedules'
+    BoxLayout:
+        orientation: 'vertical'
+        Button:
+            text: 'Main Menu'
+            size_hint: (1.0,0.1)
+            on_release: app.root.switch_to(app.load_screen('MainScreen'), direction='right')
+        GridLayout:
+            id: content
+            cols: len(app.activity_days) + 1
+            rows: len(app.activity_schedules) + 1

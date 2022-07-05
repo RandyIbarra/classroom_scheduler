@@ -1,0 +1,15 @@
+Screen:
+    name: 'classrooms'
+    BoxLayout:
+        orientation: 'vertical'
+        Button:
+            text: 'Main Menu'
+            size_hint: (1.0,0.1)
+            on_release: app.root.switch_to(app.load_screen('MainScreen'), direction='left')
+        AnchorLayout:
+            anchor_x: 'center'
+            anchor_y: 'center'
+            BoxLayout:
+                id: content
+                size_hint: (.5, .9)
+                orientation: 'vertical'

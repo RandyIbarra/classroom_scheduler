@@ -1,0 +1,698 @@
+{
+  "Seminarios": {
+    "Monday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Tuesday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Wednesday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Thursday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Friday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    }
+  },
+  "Astrofisica": {
+    "Monday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Tuesday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Wednesday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Thursday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Friday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    }
+  },
+  "DEMAT3": {
+    "Monday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Tuesday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Wednesday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Thursday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Friday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    }
+  },
+  "DEMAT4": {
+    "Monday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Tuesday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Wednesday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Thursday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Friday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    }
+  },
+  "DEMAT5": {
+    "Monday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Tuesday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Wednesday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Thursday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Friday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    }
+  },
+  "DEMAT6": {
+    "Monday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Tuesday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Wednesday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Thursday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Friday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    }
+  },
+  "DEMAT7": {
+    "Monday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Tuesday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Wednesday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Thursday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Friday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    }
+  },
+  "DEMAT8": {
+    "Monday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Tuesday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Wednesday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Thursday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    },
+    "Friday": {
+      "08:00-09:20": {
+        "activity_name": "Not Assigned"
+      },
+      "09:30-10:50": {
+        "activity_name": "Not Assigned"
+      },
+      "11:00-12:20": {
+        "activity_name": "Not Assigned"
+      },
+      "12:30-13:50": {
+        "activity_name": "Not Assigned"
+      },
+      "15:00-16:20": {
+        "activity_name": "Not Assigned"
+      }
+    }
+  }
+}

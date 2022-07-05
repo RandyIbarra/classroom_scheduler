@@ -1,0 +1,21 @@
+Screen:
+    name: 'mainscreen'
+    BoxLayout:
+        AnchorLayout:
+            anchor_x: 'center'
+            anchor_y: 'center'
+            Button:
+                id: classrooms
+                text: 'Classrooms'
+                size_hint: (.5, .2)
+                on_release: 
+                    app.root.switch_to(app.load_screen(self.text), direction='right')
+        AnchorLayout:
+            anchor_x: 'center'
+            anchor_y: 'center'
+            Button:
+                id: weekschedule
+                text: 'WeekSchedules'
+                size_hint: (.5, .2)
+                on_release: 
+                    app.root.switch_to(app.load_screen(self.text), direction='left')

@@ -12,7 +12,6 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.button import Button
 from kivy.uix.label import Label
 
-
 from scheduler.utils import get_classroom_ids
 from scheduler.utils import get_activity_days
 from scheduler.utils import get_activity_schedules
@@ -24,7 +23,7 @@ from scheduler.modules.college import College
 
 def on_button_press(button):
     print(button.text)
-    button.parent.parent.parent.parent.current = 'Week'
+    button.parent.parent.parent.parent.current = 'Menu'
 
 class SchedulerMenu(Screen):
 
@@ -73,8 +72,11 @@ class SchedulerApp(App):
             activity_schedules=get_activity_schedules()
         )
 
-        self.screenmanager = ScreenManager()
+        self.screen_manager = ScreenManager(transition=NoTransition())
 
-        self.screenmanager.add_widget()
+        self.screen_manager.add_widget(SchedulerMenu(name='Menu'))
+#        self.screen_manager.add_widget(WeeklySchedule2(name='Week', college=self.demat))
 
-        self.screenmanager.current = 'Menu'
+        self.screen_manager.current = 'Menu'
+
+        return self.screen_manager
